@@ -1,0 +1,430 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Whatfix</title>
+		<link rel="icon" href="assets/whatfix-favicon.png" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+		/>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<section class="navbar-header">
+			<nav class="navbar">
+				<div class="navbar-top">
+					<img
+						src="assets/whatfix-logo.png"
+						alt="Whatfix Logo"
+						class="navbar-top-logo"
+					/>
+					<ul class="navbar-top-links">
+						<li class="active">Product</li>
+						<li>Solution</li>
+						<li>Customers</li>
+						<li>Pricing</li>
+						<li>Partners</li>
+						<li><button class="navbar-top-link-login-btn">Login</button></li>
+					</ul>
+					<button class="toggle-side-nav">&#9776;</button>
+				</div>
+				<div class="navbar-side">
+					<ul class="navbar-side-links">
+						<li class="active">Product</li>
+						<li>Solution</li>
+						<li>Customers</li>
+						<li>Pricing</li>
+						<li>Partners</li>
+						<li><button class="navbar-top-link-login-btn">Login</button></li>
+					</ul>
+				</div>
+			</nav>
+			<header class="hero-image-header">
+				<div class="header-text">
+					<p class="header-title">
+						Delight new users with a seamless employee onboarding experience
+					</p>
+					<p class="header-paragraph">
+						Create personalized and engaging employee onboarding programs at
+						scale and catapult your employees to rapid productivity
+					</p>
+					<button class="header-button">Try Whatfix for Free</button>
+				</div>
+			</header>
+		</section>
+		<section class="tab-accordian">
+			<p class="tab-accordian-heading">
+				Drive rapid employee onboarding with in-app guidance
+			</p>
+			<div class="tab-view">
+				<div class="tab-view-container">
+					<div class="tab-left-image">
+						<img
+							class="tab-view-image"
+							src="assets/view-1-image.png"
+							alt="View Image-1"
+						/>
+					</div>
+					<div class="tab-right-content">
+						<div class="tab-button">
+							<button
+								id="defaultOpen"
+								class="tablink"
+								onclick="openPage('View-1', this, '#00bcd4')"
+							>
+								Personalize onboarding experience
+							</button>
+							<button
+								class="tablink"
+								onclick="openPage('View-2', this, '#00bcd4')"
+							>
+								Reduce training effort
+							</button>
+							<button
+								class="tablink"
+								onclick="openPage('View-3', this, '#00bcd4')"
+							>
+								Promote high value features
+							</button>
+							<button
+								class="tablink"
+								onclick="openPage('View-4', this, '#00bcd4')"
+							>
+								Prescribe required tasks
+							</button>
+						</div>
+
+						<div id="View-1" class="tabcontent">
+							<ul>
+								<li>
+									Initiate the perfect handshake with a personalized employee
+									onboarding experience
+								</li>
+								<li>
+									Welcome new users with the first call-to-action based on their
+									role
+								</li>
+								<li>
+									Provide option to new users to discover the application with a
+									guided tour
+								</li>
+							</ul>
+						</div>
+
+						<div id="View-2" class="tabcontent">
+							<ul>
+								<li>
+									Design interactive walkthroughs and in-app self help to
+									empower users to become proficient quickly
+								</li>
+								<li>
+									Analyze impact on onboarding objectives and optimize guidance
+									flows in real-time
+								</li>
+							</ul>
+						</div>
+
+						<div id="View-3" class="tabcontent">
+							<ul>
+								<li>
+									Guide your users to the high value features instantly by
+									highlighting them
+								</li>
+								<li>
+									Enable users to complete some tasks and get some quick-wins so
+									they feel that using the application will help them
+								</li>
+								<li>
+									Progressively help employees grow their digital expertise by
+									sharing a broader set of processes and features
+								</li>
+							</ul>
+						</div>
+
+						<div id="View-4" class="tabcontent">
+							<ul>
+								<li>
+									Create task lists with required tasks that a new user needs to
+									complete in order to get started with the application
+								</li>
+								<li>
+									Track each user’s task completion rate and remind them when
+									tasks are incomplete
+								</li>
+								<li>
+									Create a sense of achievement when tasks are completed and
+									complete the feedback loop with surveys
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="accordian-view">
+				<button class="accordion">
+					Personalize onboarding experience
+					<span class="open-accoordian">&#9776;</span>
+				</button>
+				<div class="panel">
+					<img
+						class="accordian-view-image"
+						src="assets/view-1-image.png"
+						alt="View Image"
+					/>
+					<ul>
+						<li>
+							Initiate the perfect handshake with a personalized employee
+							onboarding experience
+						</li>
+						<li>
+							Welcome new users with the first call-to-action based on their
+							role
+						</li>
+						<li>
+							Provide option to new users to discover the application with a
+							guided tour
+						</li>
+					</ul>
+				</div>
+
+				<button class="accordion">
+					Reduce training effort<span class="open-accoordian">&#9776;</span>
+				</button>
+				<div class="panel">
+					<img
+						class="accordian-view-image"
+						src="assets/view-2-image.png"
+						alt="View Image"
+					/>
+					<ul>
+						<li>
+							Design interactive walkthroughs and in-app self help to empower
+							users to become proficient quickly
+						</li>
+						<li>
+							Analyze impact on onboarding objectives and optimize guidance
+							flows in real-time
+						</li>
+					</ul>
+				</div>
+
+				<button class="accordion">
+					Promote high value features
+					<span class="open-accoordian">&#9776;</span>
+				</button>
+				<div class="panel">
+					<img
+						class="accordian-view-image"
+						src="assets/view-3-image.png"
+						alt="View Image"
+					/>
+					<ul>
+						<li>
+							Guide your users to the high value features instantly by
+							highlighting them
+						</li>
+						<li>
+							Enable users to complete some tasks and get some quick-wins so
+							they feel that using the application will help them
+						</li>
+						<li>
+							Progressively help employees grow their digital expertise by
+							sharing a broader set of processes and features
+						</li>
+					</ul>
+				</div>
+				<button class="accordion">
+					Prescribe required tasks <span class="open-accoordian">&#9776;</span>
+				</button>
+				<div class="panel">
+					<img
+						class="accordian-view-image"
+						src="assets/view-4-image.png"
+						alt="View Image"
+					/>
+					<ul>
+						<li>
+							Create task lists with required tasks that a new user needs to
+							complete in order to get started with the application
+						</li>
+						<li>
+							Track each user’s task completion rate and remind them when tasks
+							are incomplete
+						</li>
+						<li>
+							Create a sense of achievement when tasks are completed and
+							complete the feedback loop with surveys
+						</li>
+					</ul>
+				</div>
+			</div>
+		</section>
+		<section class="employee-exp-grid">
+			<p class="employee-exp-heading">
+				Elevate employee experience with a personalized onboarding journey
+			</p>
+			<div class="employee-exp-grid-container">
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_1.svg" alt="Grid image" />
+					<strong>70%</strong>
+					<p>
+						Onboarding employees the right way decreases time to proficiency and
+						improves productivity by 70%
+					</p>
+				</div>
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_2.svg" alt="Grid image" />
+					<strong>82%</strong>
+					<p>
+						Proper onboarding helps maximize employee lifetime value and
+						improves retention rate by 82%
+					</p>
+				</div>
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_3.svg" alt="Grid image" />
+					<strong>69%</strong>
+					<p>
+						Of employees are more likely to stay in an organization for 3 years
+						if they have a great onboarding experience
+					</p>
+				</div>
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_4.svg" alt="Grid image" />
+					<strong>77%</strong>
+					<p>
+						Of employees who went through a well designed onboarding process hit
+						performance goals
+					</p>
+				</div>
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_5.svg" alt="Grid image" />
+					<strong>25%</strong>
+					<p>
+						Increase in retention rate in companies with efficient onboarding
+						programs
+					</p>
+				</div>
+				<div class="grid-item">
+					<img class="grid-image" src="assets/grid_6.svg" alt="Grid image" />
+					<strong>2.5x</strong>
+					<p>
+						More revenues for companies with engaged employees than those with
+						low engagement levels
+					</p>
+				</div>
+			</div>
+			<button class="employee-exp-grid-btn">
+				Need more reasons?
+			</button>
+		</section>
+		<section class="user-review-thumbnail">
+			<h1 class="quote">
+				&#8221;
+			</h1>
+			<p class="user-review">
+				“Flipkart has always focused on making e-commerce simpler and more
+				intuitive for customers and business partners alike. A service like
+				WhatFix helps our affiliate network to onboard and gain in-depth
+				understanding about the Flipkart Affiliate Program and manage their
+				accounts more effectively.”
+			</p>
+			<div class="user-info">
+				<img
+					class="user-img"
+					src="assets/user-image.png"
+					alt="User who reviewed"
+				/>
+				<div class="user-name">
+					<h3>Mausam Bhatt</h3>
+					<p>Sr. Director - Marketing</p>
+				</div>
+				<img
+					class="company-logo"
+					src="assets/flipkart.svg"
+					alt="Company logo"
+				/>
+			</div>
+		</section>
+		<section class="company-timeline">
+			<img src="assets/company-1.png" class="timeline-images" />
+			<img src="assets/company-2.png" class="timeline-images" />
+			<img src="assets/company-3.png" class="timeline-images" />
+			<img src="assets/company-4.png" class="timeline-images" />
+			<img src="assets/company-5.png" class="timeline-images" />
+			<img src="assets/company-6.png" class="timeline-images" />
+			<img src="assets/company-7.png" class="timeline-images" />
+		</section>
+		<section class="discover-us">
+			<p>Discover How Whatfix Can Help You</p>
+			<button class="employee-exp-grid-btn">Request a Demo</button>
+		</section>
+		<footer class="page-footer">
+			<div class="contact-resources">
+				<div class="col-1">
+					<h4>COMPANY</h4>
+
+					<ul>
+						<li>About Us</li>
+						<li>Work with Us</li>
+						<li>Contact Us</li>
+						<li>Community</li>
+						<li>Blog</li>
+						<li>Academy</li>
+					</ul>
+				</div>
+				<div class="col-2">
+					<h4>APP DIRECTORY</h4>
+
+					<ul>
+						<li>Salesforce</li>
+						<li>Oracle</li>
+						<li>Ms Dynamics</li>
+						<li>Success Factors</li>
+						<li>SharePoint</li>
+						<li>ServiceNow</li>
+					</ul>
+				</div>
+				<div class="col-3">
+					<h4>USE CASES</h4>
+
+					<ul>
+						<li>Onboarding</li>
+						<li>Performance Support</li>
+						<li>Training</li>
+						<li>Support</li>
+						<li>Change Management</li>
+					</ul>
+				</div>
+				<div class="col-4">
+					<h4>RESOURCES</h4>
+
+					<ul>
+						<li>CUSTOMERS</li>
+						<li>PARTNERS</li>
+						<li>FAQ</li>
+						<li>PRIVACY POLICY</li>
+						<li>TERMS OF SERVICES</li>
+					</ul>
+				</div>
+			</div>
+			<ul class="copyright-tel">
+				<li class="copyright">
+					Copyright © 2020 WHATFIX. All rights reserved.
+				</li>
+				<li class="tel-num">
+					&#9742; 1800-459-7098
+				</li>
+				<li class="social-icons">
+					<a href="#" class="fa fa-facebook"></a>
+					<a href="#" class="fa fa-linkedin"></a>
+					<a href="#" class="fa fa-twitter"></a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+	<script src="js/app.js"></script>
+</html>
